@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="TestDemo">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="E:/Software/Java/eclipse-standard-kepler-SR2-win32-x86_64/eclipse"/>
+    <property name="junit.output.dir" value="C:/Users/Amresh/workspace/TestDemo/amr"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="E:/Software/Java/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar"/>
+        <pathelement location="E:/Software/Java/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+    </path>
+    <path id="TestDemo.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+    </path>
+    <path id="Refrenced Library.bootclasspath">
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/client-combined-3.3.1-nodeps.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/cglib-nodep-3.2.4.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/commons-codec-1.10.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/commons-exec-1.3.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/commons-io-2.5.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/commons-lang3-3.5.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/commons-logging-1.2.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/cssparser-0.9.21.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/gson-2.8.0.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/guava-21.0.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/hamcrest-core-1.3.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/hamcrest-library-1.3.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/htmlunit-2.24.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/htmlunit-core-js-2.23.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/htmlunit-driver-2.24.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/httpclient-4.5.2.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/httpcore-4.4.4.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/httpmime-4.5.2.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/javax.servlet-api-3.1.0.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/jetty-io-9.4.1.v20170120.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/jetty-util-9.4.1.v20170120.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/jna-4.1.0.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/jna-platform-4.1.0.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/junit-4.12.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/neko-htmlunit-2.24.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/phantomjsdriver-1.4.0.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/sac-1.3.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/serializer-2.7.2.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/websocket-api-9.2.20.v20161216.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/websocket-client-9.2.20.v20161216.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/websocket-common-9.2.20.v20161216.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/xalan-2.7.2.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/xercesImpl-2.11.0.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/lib/xml-apis-1.4.01.jar"/>
+        <pathelement location="E:/Software/Java/selenium-java-3.3.1/client-combined-3.3.1-nodeps.jar"/>
+    </path>
+    <path id="run.first (1).bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+        <path refid="Refrenced Library.bootclasspath"/>
+    </path>
+    <path id="run.Test.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+        <path refid="Refrenced Library.bootclasspath"/>
+    </path>
+    <path id="run.TestTest.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+        <path refid="Refrenced Library.bootclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init,TestTest,junitreport" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="TestDemo.classpath"/>
+            <bootclasspath>
+                <fileset dir="${java.home}/lib" includes="*.jar"/>
+                <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+                <path refid="Refrenced Library.bootclasspath"/>
+            </bootclasspath>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="first (1)">
+        <java classname="com.test.first" failonerror="true" fork="yes">
+            <classpath refid="TestDemo.classpath"/>
+            <bootclasspath>
+                <path refid="run.first (1).bootclasspath"/>
+            </bootclasspath>
+        </java>
+    </target>
+    <target name="Test">
+        <java classname="com.test.Test" failonerror="true" fork="yes">
+            <classpath refid="TestDemo.classpath"/>
+            <bootclasspath>
+                <path refid="run.Test.bootclasspath"/>
+            </bootclasspath>
+        </java>
+    </target>
+    <target name="TestTest">
+        <mkdir dir="${junit.output.dir}"/>
+    	
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.test.TestTest" todir="${junit.output.dir}"/>
+            <classpath refid="TestDemo.classpath"/>
+            <bootclasspath>
+                <path refid="run.TestTest.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
